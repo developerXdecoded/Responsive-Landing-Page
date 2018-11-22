@@ -1,0 +1,1 @@
+console.log("This is file2 "),$(function(){menu=$("nav ul"),$("#openup").on("click",function(n){n.preventDefault(),menu.slideToggle()}),$(window).resize(function(){480<$(this).width()&&menu.is(":hidden")&&menu.removeAttr("style")}),$("nav li").on("click",function(n){$(window).width()<480&&menu.slideToggle()}),$(".open-menu").height($(window).height())});
